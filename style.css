@@ -19,6 +19,7 @@
 .card-game{
   background: white;
   padding: 30px;
+  width: 800px;
   margin: 60 auto;
   text-align: center;
   box-shadow: 2px 2px 4px;
