@@ -1,0 +1,82 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body{
+  background-color: skyblue;
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+  font-size: 16px;
+  line-height: 9px;
+}
+h1, h2{
+  color:black;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 10px;
+}
+h1{
+  font-size:30px;
+}
+h2{
+  font-size:22px;
+}
+a{
+  color:rgb(76, 116, 110);
+  text-decoration: none;
+  text-align: center;
+}
+a:hover{
+  font-weight: 900;
+  font-size: 35px;
+  transition: 1s;
+}
+img {
+  width: 300px;
+}
+.img-circle {
+  border-radius: 50%;
+  position: center;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  margin: 100 auto;
+  width: 500px;
+  text-align: center;
+  box-shadow: 2px 2px 4px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
