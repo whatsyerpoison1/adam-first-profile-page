@@ -16,6 +16,10 @@
   }
 }
 
+#flap{
+  text-align: center
+}
+
 body{
   background-color: skyblue;
   font-family: 'Open Sans', sans-serif;
