@@ -19,8 +19,7 @@
 .card-game{
   background: white;
   padding: 30px;
-  width: 800px;
-  margin: 60 auto;
+  margin: auto;
   text-align: center;
   box-shadow: 2px 2px 4px;
 }
@@ -89,3 +88,23 @@ ul {
   margin: 0 auto;
 }
 
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: normal;
+  align-items: normal;
+}
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+.card img {
+  width: 100px;
+}
